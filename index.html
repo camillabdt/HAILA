@@ -312,6 +312,62 @@
             animation: pulse 0.4s ease-out;
         }
 
+        .painel-editar {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        .painel-titulo {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .btn-editar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 8px;
+            border: 2px solid #e5e7eb;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+
+        .btn-editar:hover {
+            border-color: #3b82f6;
+            background: #eff6ff;
+        }
+
+        .btn-editar.ativo {
+            border-color: #3b82f6;
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-editar.preenchido:not(.ativo) {
+            border-color: #22c55e;
+            background: #f0fdf4;
+        }
+
+        .btn-editar-label {
+            font-weight: 500;
+        }
+
+        .btn-editar-valor {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
         .stats {
             background: white;
             padding: 20px;
@@ -639,6 +695,18 @@
                 html += `<button class="btn-proximo" onclick="proximaQuestao()">Próxima Questão →</button>`;
             }
 
+            html += `
+                <div class="painel-editar">
+                    <div class="painel-titulo">Editar Avaliações</div>
+                    ${metricas.map((m, idx) => `
+                        <button class="btn-editar ${idx === metricaAtual ? 'ativo' : ''} ${q.avaliacao[m] ? 'preenchido' : ''}" onclick="editarMetrica(${idx})">
+                            <span class="btn-editar-label">${metricasTitulos[m]}</span>
+                            <span class="btn-editar-valor">${q.avaliacao[m] || '-'}</span>
+                        </button>
+                    `).join('')}
+                </div>
+            `;
+
             main.innerHTML = html;
         }
 
@@ -647,6 +715,19 @@
             const metrica = metricas[metricaAtual];
             q.avaliacao[metrica] = nota;
             atualizarStats();
+            
+            setTimeout(() => {
+                if (metricaAtual < metricas.length - 1) {
+                    metricaAtual++;
+                    renderizar();
+                } else {
+                    renderizar();
+                }
+            }, 500);
+        }
+
+        function editarMetrica(idx) {
+            metricaAtual = idx;
             renderizar();
         }
 
@@ -657,16 +738,6 @@
             if (tecla >= '1' && tecla <= '5') {
                 const nota = parseInt(tecla);
                 selecionarNota(nota);
-            } else if (tecla === 'ArrowLeft') {
-                if (metricaAtual > 0) {
-                    metricaAtual--;
-                    renderizar();
-                }
-            } else if (tecla === 'ArrowRight') {
-                if (metricaAtual < metricas.length - 1) {
-                    metricaAtual++;
-                    renderizar();
-                }
             }
         });
 

@@ -67,202 +67,86 @@
             }
         }
 
-        .filtros {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            display: flex;
-            gap: 10px;
-        }
-
-        .filtro-btn {
-            padding: 8px 16px;
-            border: 1px solid #ddd;
-            background: #f5f7fa;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 500;
-        }
-
-        .filtro-btn.ativo {
-            background: #3b82f6;
-            color: white;
-            border-color: #3b82f6;
-        }
-
-        .questao {
+        .main-content {
             background: white;
             border-radius: 8px;
-            margin-bottom: 15px;
+            padding: 30px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            overflow: hidden;
         }
 
-        .questao-header {
-            padding: 15px;
-            background: #f9fafb;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #eee;
-        }
-
-        .questao-header:hover {
-            background: #f3f4f6;
+        .questao-numero {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 8px;
         }
 
         .questao-titulo {
-            font-weight: 600;
-            color: #333;
-        }
-
-        .questao-info {
-            font-size: 12px;
-            color: #999;
-            margin-top: 4px;
-        }
-
-        .questao-status {
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 600;
-            background: #f3f4f6;
+            font-size: 14px;
             color: #666;
-        }
-
-        .questao-status.avaliada {
-            background: #dcfce7;
-            color: #166534;
-        }
-
-        .questao-status.incompleta {
-            background: #fee2e2;
-            color: #991b1b;
+            margin-bottom: 4px;
         }
 
         .questao-conteudo {
-            padding: 20px;
-            display: none;
-        }
-
-        .questao-conteudo.ativo {
-            display: block;
-        }
-
-        .abas {
-            display: flex;
-            gap: 0;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #eee;
-        }
-
-        .aba {
-            padding: 12px 20px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-weight: 500;
-            color: #999;
-            border-bottom: 2px solid transparent;
-            margin-bottom: -2px;
-        }
-
-        .aba.ativo {
-            color: #3b82f6;
-            border-bottom-color: #3b82f6;
-        }
-
-        .aba-content {
-            display: none;
-        }
-
-        .aba-content.ativo {
-            display: block;
-        }
-
-        .pergunta-texto {
             background: #f9fafb;
-            padding: 15px;
-            border-radius: 6px;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
             line-height: 1.6;
             white-space: pre-wrap;
             word-wrap: break-word;
             font-size: 14px;
+            border-left: 4px solid #3b82f6;
         }
 
-        .metricas {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-        }
-
-        .metrica {
-            border: 2px solid #eee;
+        .avaliacao-container {
+            background: #f9fafb;
+            padding: 20px;
             border-radius: 8px;
-            padding: 15px;
+            margin-bottom: 20px;
         }
 
-        .metrica.fluidez {
-            border-color: #86efac;
-            background: #f0fdf4;
-        }
-
-        .metrica.capacidade {
-            border-color: #93c5fd;
-            background: #eff6ff;
-        }
-
-        .metrica.diversidade {
-            border-color: #d8b4fe;
-            background: #faf5ff;
-        }
-
-        .metrica.complexidade {
-            border-color: #fcd34d;
-            background: #fffbeb;
-        }
-
-        .metrica.relevancia {
-            border-color: #fbcfe8;
-            background: #fdf2f8;
+        .metrica-atual {
+            margin-bottom: 20px;
         }
 
         .metrica-titulo {
             font-weight: 600;
-            margin-bottom: 4px;
-            font-size: 14px;
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #333;
         }
 
         .metrica-descricao {
-            font-size: 12px;
+            font-size: 13px;
             color: #666;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
 
         .rating-buttons {
             display: flex;
-            gap: 8px;
+            gap: 10px;
             justify-content: center;
+            align-items: center;
         }
 
+
+
         .rating-btn {
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             border: 2px solid #ddd;
             background: white;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
             font-weight: 600;
-            font-size: 16px;
+            font-size: 18px;
             transition: all 0.2s;
         }
 
         .rating-btn:hover {
             border-color: #3b82f6;
             background: #eff6ff;
+            transform: scale(1.05);
         }
 
         .rating-btn.selecionado {
@@ -271,43 +155,42 @@
             border-color: #3b82f6;
         }
 
-        .metrica.fluidez .rating-btn.selecionado {
+        .metrica.fluidez .rating-btn.selecionado { background: #22c55e; border-color: #22c55e; }
+        .metrica.capacidade .rating-btn.selecionado { background: #3b82f6; border-color: #3b82f6; }
+        .metrica.diversidade .rating-btn.selecionado { background: #a855f7; border-color: #a855f7; }
+        .metrica.complexidade .rating-btn.selecionado { background: #f59e0b; border-color: #f59e0b; }
+        .metrica.relevancia .rating-btn.selecionado { background: #ec4899; border-color: #ec4899; }
+
+        .progresso-metricas {
+            display: flex;
+            gap: 8px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .passo {
+            flex: 1;
+            height: 6px;
+            background: #e5e7eb;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .passo.completo {
             background: #22c55e;
-            border-color: #22c55e;
         }
 
-        .metrica.capacidade .rating-btn.selecionado {
+        .passo.ativo {
             background: #3b82f6;
-            border-color: #3b82f6;
-        }
-
-        .metrica.diversidade .rating-btn.selecionado {
-            background: #a855f7;
-            border-color: #a855f7;
-        }
-
-        .metrica.complexidade .rating-btn.selecionado {
-            background: #f59e0b;
-            border-color: #f59e0b;
-        }
-
-        .metrica.relevancia .rating-btn.selecionado {
-            background: #ec4899;
-            border-color: #ec4899;
-        }
-
-        .rating-valor {
-            text-align: center;
-            margin-top: 10px;
-            font-size: 12px;
-            font-weight: 600;
-            padding: 6px;
-            background: rgba(0,0,0,0.05);
-            border-radius: 4px;
         }
 
         .observacoes-area {
-            margin-bottom: 15px;
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
         }
 
         .observacoes-area label {
@@ -358,6 +241,77 @@
             color: #991b1b;
         }
 
+        .btn-proximo {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 16px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .btn-proximo:hover:not(:disabled) {
+            background: #2563eb;
+        }
+
+        .btn-proximo:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+
+
+        .avaliacao-container {
+            animation: slideIn 0.4s ease-out;
+        }
+
+        .metrica-titulo {
+            animation: fadeInScale 0.5s ease-out;
+        }
+
+        .rating-buttons {
+            animation: fadeInScale 0.6s ease-out;
+        }
+
+        .rating-btn.selecionado {
+            animation: pulse 0.4s ease-out;
+        }
+
         .stats {
             background: white;
             padding: 20px;
@@ -371,37 +325,6 @@
         .stats h3 {
             font-size: 16px;
             margin-bottom: 15px;
-        }
-
-        .stat-row {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .stat-item {
-            text-align: center;
-            padding: 12px;
-            background: #f9fafb;
-            border-radius: 6px;
-        }
-
-        .stat-numero {
-            font-size: 28px;
-            font-weight: 700;
-            color: #3b82f6;
-        }
-
-        .stat-label {
-            font-size: 12px;
-            color: #999;
-            margin-top: 4px;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #999;
         }
 
         .progresso-label {
@@ -430,6 +353,31 @@
             font-size: 12px;
             color: #999;
             margin-bottom: 15px;
+        }
+
+        .stat-row {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 6px;
+        }
+
+        .stat-numero {
+            font-size: 28px;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #999;
+            margin-top: 4px;
         }
 
         .medias-container {
@@ -477,6 +425,30 @@
             font-weight: 600;
             color: #333;
         }
+
+        .fim-mensagem {
+            text-align: center;
+            padding: 40px;
+            background: #f0fdf4;
+            border-radius: 8px;
+            border: 2px solid #22c55e;
+        }
+
+        .fim-mensagem h2 {
+            color: #166534;
+            margin-bottom: 10px;
+        }
+
+        .fim-mensagem p {
+            color: #4b5563;
+        }
+
+        .input-nome {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -486,20 +458,14 @@
             <p>Avalie questões geradas por modelos de linguagem</p>
         </div>
         <div style="display: flex; gap: 10px; align-items: center;">
-            <input type="text" id="nomeProfessor" placeholder="Nome do Professor" style="padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px;">
+            <input type="text" id="nomeProfessor" placeholder="Nome do Professor" class="input-nome">
             <button class="btn-exportar" onclick="exportar()">⬇️ Exportar CSV</button>
         </div>
     </div>
 
     <div class="container">
-        <div>
-            <div class="filtros">
-                <button class="filtro-btn ativo" onclick="filtrar('todas')">Todas</button>
-                <button class="filtro-btn" onclick="filtrar('avaliadas')">Avaliadas</button>
-                <button class="filtro-btn" onclick="filtrar('incompletas')">Incompletas</button>
-            </div>
-
-            <div id="questoes"></div>
+        <div class="main-content" id="main">
+            <!-- Conteúdo será preenchido pelo JavaScript -->
         </div>
 
         <div class="stats">
@@ -569,9 +535,24 @@
 
     <script>
         let questoes = [];
-        let filtroAtual = 'todas';
+        let questaoAtual = 0;
+        let metricaAtual = 0;
+        const metricas = ['fluidez', 'capacidade', 'diversidade', 'complexidade', 'relevancia'];
+        const metricasTitulos = {
+            fluidez: 'Fluidez Gramatical',
+            capacidade: 'Capacidade de Resposta',
+            diversidade: 'Diversidade',
+            complexidade: 'Complexidade',
+            relevancia: 'Relevância'
+        };
+        const metricasDescricoes = {
+            fluidez: 'Clareza e correção gramatical da resposta',
+            capacidade: 'Adequação e completude da resposta à pergunta',
+            diversidade: 'Variedade de perspectivas e abordagens',
+            complexidade: 'Profundidade e sofisticação do conteúdo',
+            relevancia: 'Importância e pertinência do tema'
+        };
 
-        // Carregar questões
         async function carregar() {
             try {
                 const resp = await fetch('questoes.json');
@@ -581,7 +562,6 @@
                 questoes = [];
             }
 
-            // Inicializar avaliações
             questoes = questoes.map(q => ({
                 ...q,
                 avaliacao: {
@@ -595,141 +575,115 @@
                 }
             }));
 
+            document.getElementById('total').textContent = questoes.length;
             renderizar();
             atualizarStats();
         }
 
         function renderizar() {
-            const container = document.getElementById('questoes');
-            let filtradas = questoes;
+            const main = document.getElementById('main');
+            const q = questoes[questaoAtual];
 
-            if (filtroAtual === 'avaliadas') {
-                filtradas = questoes.filter(q => 
-                    q.avaliacao.fluidez && q.avaliacao.capacidade && 
-                    q.avaliacao.diversidade && q.avaliacao.complexidade && 
-                    q.avaliacao.relevancia && !q.avaliacao.incompleta
-                );
-            } else if (filtroAtual === 'incompletas') {
-                filtradas = questoes.filter(q => q.avaliacao.incompleta);
+            if (!q) {
+                main.innerHTML = `
+                    <div class="fim-mensagem">
+                        <h2>🎉 Parabéns!</h2>
+                        <p>Você avaliou todas as 150 questões com sucesso!</p>
+                        <p style="margin-top: 10px;">Clique em "Exportar CSV" para baixar os resultados.</p>
+                    </div>
+                `;
+                return;
             }
 
-            container.innerHTML = filtradas.map((q, idx) => `
-                <div class="questao">
-                    <div class="questao-header" onclick="toggleQuestao(${idx})">
-                        <div>
-                            <div class="questao-titulo">Questão ${q.question_number}</div>
-                            <div class="questao-info">${q.llm} • ${q.prompt_technique}</div>
-                        </div>
-                        <span class="questao-status ${getStatus(q).class}">${getStatus(q).texto}</span>
-                    </div>
-                    <div class="questao-conteudo" id="conteudo-${idx}">
-                        <div class="abas">
-                            <button class="aba ativo" onclick="mudarAba(${idx}, 'pergunta')">Pergunta</button>
-                            <button class="aba" onclick="mudarAba(${idx}, 'avaliacao')">Avaliação</button>
-                            <button class="aba" onclick="mudarAba(${idx}, 'observacoes')">Observações</button>
-                        </div>
+            const metrica = metricas[metricaAtual];
+            const valor = q.avaliacao[metrica];
 
-                        <div id="aba-pergunta-${idx}" class="aba-content ativo">
-                            <div class="pergunta-texto">${q.response}</div>
-                        </div>
+            let html = `
+                <div class="questao-numero">Questão ${q.question_number} de ${questoes.length}</div>
+                <div class="questao-titulo">${q.llm} • ${q.prompt_technique}</div>
+                <div class="questao-conteudo">${q.response}</div>
 
-                        <div id="aba-avaliacao-${idx}" class="aba-content">
-                            <div class="metricas">
-                                ${renderMetrica(idx, 'fluidez', 'Fluidez Gramatical', 'Clareza e correção')}
-                                ${renderMetrica(idx, 'capacidade', 'Capacidade de Resposta', 'Adequação à pergunta')}
-                                ${renderMetrica(idx, 'diversidade', 'Diversidade', 'Variedade de perspectivas')}
-                                ${renderMetrica(idx, 'complexidade', 'Complexidade', 'Profundidade do conteúdo')}
-                                ${renderMetrica(idx, 'relevancia', 'Relevância', 'Importância do tema')}
-                            </div>
-                        </div>
-
-                        <div id="aba-observacoes-${idx}" class="aba-content">
-                            <div class="observacoes-area">
-                                <label>Observações</label>
-                                <textarea placeholder="Adicione observações..." onchange="salvarObservacoes(${idx}, this.value)">${q.avaliacao.observacoes}</textarea>
-                            </div>
-                            <div class="checkbox-area">
-                                <input type="checkbox" id="incompleta-${idx}" ${q.avaliacao.incompleta ? 'checked' : ''} onchange="salvarIncompleta(${idx}, this.checked)">
-                                <label for="incompleta-${idx}">Marcar como questão incompleta</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        function renderMetrica(idx, campo, titulo, desc) {
-            const q = questoes[idx];
-            const valor = q.avaliacao[campo];
-            return `
-                <div class="metrica ${campo}">
-                    <div class="metrica-titulo">${titulo}</div>
-                    <div class="metrica-descricao">${desc}</div>
+                <div class="avaliacao-container metrica ${metrica}">
+                    <div class="metrica-titulo">${metricasTitulos[metrica]}</div>
+                    <div class="metrica-descricao">${metricasDescricoes[metrica]}</div>
                     <div class="rating-buttons">
                         ${[1,2,3,4,5].map(n => `
-                            <button class="rating-btn ${valor === n ? 'selecionado' : ''}" onclick="salvarNota(${idx}, '${campo}', ${n})">
+                            <button class="rating-btn ${valor === n ? 'selecionado' : ''}" onclick="selecionarNota(${n})">
                                 ${n}
                             </button>
                         `).join('')}
+
                     </div>
-                    ${valor ? `<div class="rating-valor">Nota: ${valor}</div>` : ''}
+                    <div class="progresso-metricas">
+                        ${metricas.map((m, idx) => `
+                            <div class="passo ${idx < metricaAtual ? 'completo' : ''} ${idx === metricaAtual ? 'ativo' : ''}"></div>
+                        `).join('')}
+                    </div>
                 </div>
             `;
+
+            if (metricaAtual === metricas.length - 1) {
+                html += `
+                    <div class="observacoes-area">
+                        <label>Observações</label>
+                        <textarea placeholder="Adicione observações sobre a questão..." onchange="salvarObservacoes(this.value)">${q.avaliacao.observacoes}</textarea>
+                        <div class="checkbox-area">
+                            <input type="checkbox" id="incompleta" ${q.avaliacao.incompleta ? 'checked' : ''} onchange="salvarIncompleta(this.checked)">
+                            <label for="incompleta">Marcar como questão incompleta</label>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (metricaAtual === metricas.length - 1) {
+                html += `<button class="btn-proximo" onclick="proximaQuestao()">Próxima Questão →</button>`;
+            }
+
+            main.innerHTML = html;
         }
 
-        function toggleQuestao(idx) {
-            // Fechar todas as outras questões
-            document.querySelectorAll('.questao-conteudo.ativo').forEach(el => {
-                el.classList.remove('ativo');
-            });
-            
-            // Abrir a questão clicada
-            const el = document.getElementById(`conteudo-${idx}`);
-            el.classList.add('ativo');
-        }
-
-        function mudarAba(idx, aba) {
-            // Remover ativo de todas as abas
-            document.querySelectorAll(`#conteudo-${idx} .aba`).forEach(b => b.classList.remove('ativo'));
-            document.querySelectorAll(`#conteudo-${idx} .aba-content`).forEach(c => c.classList.remove('ativo'));
-
-            // Adicionar ativo
-            event.target.classList.add('ativo');
-            document.getElementById(`aba-${aba}-${idx}`).classList.add('ativo');
-        }
-
-        function salvarNota(idx, campo, valor) {
-            questoes[idx].avaliacao[campo] = valor;
+        function selecionarNota(nota) {
+            const q = questoes[questaoAtual];
+            const metrica = metricas[metricaAtual];
+            q.avaliacao[metrica] = nota;
+            atualizarStats();
             renderizar();
+        }
+
+
+
+        document.addEventListener('keydown', function(event) {
+            const tecla = event.key;
+            if (tecla >= '1' && tecla <= '5') {
+                const nota = parseInt(tecla);
+                selecionarNota(nota);
+            } else if (tecla === 'ArrowLeft') {
+                if (metricaAtual > 0) {
+                    metricaAtual--;
+                    renderizar();
+                }
+            } else if (tecla === 'ArrowRight') {
+                if (metricaAtual < metricas.length - 1) {
+                    metricaAtual++;
+                    renderizar();
+                }
+            }
+        });
+
+        function salvarObservacoes(valor) {
+            questoes[questaoAtual].avaliacao.observacoes = valor;
+        }
+
+        function salvarIncompleta(valor) {
+            questoes[questaoAtual].avaliacao.incompleta = valor;
             atualizarStats();
         }
 
-        function salvarObservacoes(idx, valor) {
-            questoes[idx].avaliacao.observacoes = valor;
-        }
-
-        function salvarIncompleta(idx, valor) {
-            questoes[idx].avaliacao.incompleta = valor;
+        function proximaQuestao() {
+            questaoAtual++;
+            metricaAtual = 0;
             renderizar();
             atualizarStats();
-        }
-
-        function filtrar(tipo) {
-            filtroAtual = tipo;
-            document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('ativo'));
-            event.target.classList.add('ativo');
-            renderizar();
-        }
-
-        function getStatus(q) {
-            if (q.avaliacao.incompleta) {
-                return { texto: 'Incompleta', class: 'incompleta' };
-            }
-            if (q.avaliacao.fluidez && q.avaliacao.capacidade && q.avaliacao.diversidade && 
-                q.avaliacao.complexidade && q.avaliacao.relevancia) {
-                return { texto: 'Avaliada', class: 'avaliada' };
-            }
-            return { texto: 'Não avaliada', class: '' };
         }
 
         function atualizarStats() {
@@ -741,7 +695,6 @@
             const incompletas = questoes.filter(q => q.avaliacao.incompleta).length;
             const total = questoes.length;
 
-            document.getElementById('total').textContent = total;
             document.getElementById('avaliadas').textContent = avaliadas;
             document.getElementById('incompletas').textContent = incompletas;
 
@@ -749,7 +702,6 @@
             document.getElementById('progresso-fill').style.width = percentual + '%';
             document.getElementById('progresso-texto').textContent = avaliadas + ' de ' + total + ' (' + percentual + '%)';
 
-            const metricas = ['fluidez', 'capacidade', 'diversidade', 'complexidade', 'relevancia'];
             metricas.forEach(metrica => {
                 const notas = questoes
                     .filter(q => q.avaliacao[metrica] !== null)
@@ -768,7 +720,6 @@
                 return;
             }
 
-            // Criar CSV
             let csv = 'Professor,Questão,Fluidez Gramatical,Capacidade de Resposta,Diversidade,Complexidade,Relevância,Avaliação Total,Incompleta,Observações\n';
             
             questoes.forEach(q => {
@@ -783,7 +734,6 @@
                 csv += `"${nomeProfessor}","Questão ${q.question_number}",${av.fluidez || 0},${av.capacidade || 0},${av.diversidade || 0},${av.complexidade || 0},${av.relevancia || 0},${media},${incompleta},"${obs}"\n`;
             });
 
-            // Baixar CSV
             const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
@@ -793,7 +743,6 @@
             URL.revokeObjectURL(url);
         }
 
-        // Iniciar
         carregar();
     </script>
 </body>

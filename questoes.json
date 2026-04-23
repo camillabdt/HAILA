@@ -1048,7 +1048,356 @@
         "prompt_technique": "template-based",
         "question_number": 10,
         "response": "**Raciocínio e explicação**\n\nNa Engenharia de Requisitos, a **elicitação de requisitos** é a fase em que o analista coleta, de forma estruturada, as necessidades dos stakeholders para o sistema a ser desenvolvido. Existem diversas técnicas para conduzir essa coleta, entre as quais se destacam:\n\n* **Entrevistas** – conversas individuais ou em grupo com stakeholders, permitindo aprofundar detalhes e esclarecer dúvidas.  \n* **Questionários** – instrumentos padronizados que podem ser distribuídos a um grande número de participantes, facilitando a coleta de informações de forma quantitativa.  \n\nEssas duas técnicas são, portanto, **técnicas de elicitação** propriamente ditas.\n\nAs demais alternativas apresentadas não são técnicas de elicitação:\n\n- **A) Análise de sistemas legados** – trata‑se de estudar sistemas já existentes para entender seu funcionamento ou migrá‑los; não é um método de coleta de requisitos, mas sim de análise de artefatos já implementados.  \n- **B) Prototipagem** – embora ajude a refinar requisitos ao apresentar uma versão parcial do sistema, sua finalidade principal é **validação** e **refinamento**, não a coleta inicial de requisitos.  \n- **D) Gerenciamento de mudanças** – refere‑se ao controle e à documentação de alterações nos requisitos já definidos, sendo uma atividade de manutenção e controle, não de elicitação.\n\nPortanto, a alternativa que corresponde a uma técnica de elicitação de requisitos é a **C) Entrevistas e questionários**.\n\n---\n\n### Pergunta final (formato solicitado)\n\nPergunta: Qual das seguintes opções é uma técnica utilizada para elicitar requisitos em Engenharia de Requisitos?  \nA) Análise de sistemas legados  \nB) Prototipagem  \nC) Entrevistas e questionários  \nD) Gerenciamento de mudanças  \n\nResposta correta: C"
+
+    },
+    {
+        "id": "llama-3-70b_zero-shot_1",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 1,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Definir a arquitetura do sistema\nB) Desenvolver a documentação do sistema\nC) Identificar e documentar os requisitos do sistema\nD) Implementar a solução tecnológica\n\nResposta correta: C) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_zero-shot_2",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 2,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Definir a estrutura da base de dados do sistema.\nB) Desenvolver a arquitetura da solução.\nC) Identificar e documentar os requisitos do sistema para garantir que ele atenda às necessidades do cliente.\nD) Planejar a estratégia de marketing do produto.\n\nResposta correta: C) Identificar e documentar os requisitos do sistema para garantir que ele atenda às necessidades do cliente."
+    },
+    {
+        "id": "llama-3-70b_zero-shot_3",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 3,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software?\n\nA) Desenvolver um plano de ação para implementar as soluções técnicas.\nB) Identificar e documentar os requisitos do sistema para garantir que ele atenda às necessidades do cliente.\nC) Realizar testes de software para garantir a qualidade do produto.\nD) Gerenciar a equipe de desenvolvimento do projeto.\n\nResposta correta: B) Identificar e documentar os requisitos do sistema para garantir que ele atenda às necessidades do cliente."
+    },
+    {
+        "id": "llama-3-70b_zero-shot_4",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 4,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Definir a arquitetura do sistema\nB) Desenvolver o código-fonte do software\nC) Identificar e documentar os requisitos do sistema\nD) Testar a funcionalidade do software\n\nResposta correta: C) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_zero-shot_5",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 5,
+        "response": "Pergunta: Qual é o objetivo principal do processo de Engenharia de Requisitos em um projeto de software?\n\nA) Definir o cronograma e o orçamento do projeto.\nB) Desenvolver a solução técnica do sistema.\nC) Identificar, documentar e validar os requisitos do sistema.\nD) Testar a qualidade do software.\n\nResposta correta: C) Identificar, documentar e validar os requisitos do sistema."
+    },
+    {
+        "id": "llama-3-70b_zero-shot_6",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 6,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Definir a arquitetura do sistema\nB) Desenvolver o código fonte do software\nC) Identificar e documentar os requisitos do sistema\nD) Testar a funcionalidade do software\n\nResposta correta: C) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_zero-shot_7",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 7,
+        "response": "Pergunta: Qual é o objetivo principal do processo de Engenharia de Requisitos em um projeto de software?\n\nA) Definir os prazos e orçamentos do projeto\nB) Desenvolver a solução tecnológica para atender aos requisitos\nC) Identificar, documentar e validar os requisitos do sistema\nD) Gerenciar a equipe de desenvolvimento do projeto\n\nResposta correta: C) Identificar, documentar e validar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_zero-shot_8",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 8,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software?\n\nA) Definir a arquitetura do sistema\nB) Desenvolver o código fonte do software\nC) Identificar e documentar os requisitos do sistema\nD) Testar a funcionalidade do software\n\nResposta correta: C) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_zero-shot_9",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 9,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software?\n\nA) Desenvolver a solução técnica para o problema\nB) Identificar e documentar os requisitos do sistema\nC) Planejar a estrutura da equipe de desenvolvimento\nD) Definir o cronograma de entrega do projeto\n\nResposta correta: B) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_zero-shot_10",
+        "llm": "llama-3-70b",
+        "prompt_technique": "zero-shot",
+        "question_number": 10,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Definir a estrutura da base de dados do sistema.\nB) Desenvolver a arquitetura do sistema.\nC) Identificar e documentar os requisitos do sistema para garantir que ele atenda às necessidades do cliente.\nD) Realizar a implementação do sistema.\n\nResposta correta: C) Identificar e documentar os requisitos do sistema para garantir que ele atenda às necessidades do cliente."
+    },
+    {
+        "id": "llama-3-70b_few-shot_1",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 1,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software?\nA) Desenvolver o design da interface do usuário\nB) Identificar e documentar as necessidades do cliente\nC) Realizar a integração de sistemas\nD) Realizar a manutenção do software\n\nResposta correta: B"
+    },
+    {
+        "id": "llama-3-70b_few-shot_2",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 2,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software?\nA) Desenvolver o código-fonte e realizar testes\nB) Reduzir custos de hardware e melhorar a eficiência\nC) Definir e documentar as necessidades do cliente e do negócio\nD) Realizar análise de mercado e concorrente\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_few-shot_3",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 3,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software, considerando a visão do cliente e a equipe de desenvolvimento?\nA) Identificar e priorizar os requisitos do sistema\nB) Desenvolver o código-fonte e realizar testes\nC) Gerenciar o cronograma e orçamento do projeto\nD) Realizar análise de mercado e concorrentes\nResposta correta: A"
+    },
+    {
+        "id": "llama-3-70b_few-shot_4",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 4,
+        "response": "Pergunta: Qual é o papel do Engenheiro de Requisitos em um projeto de software?\nA) Desenvolver o código-fonte e realizar testes\nB) Gerenciar a equipe de desenvolvimento e planejar o projeto\nC) Definir e documentar as necessidades do cliente e garantir a consistência dos requisitos\nD) Realizar a manutenção e atualização do sistema após a entrega\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_few-shot_5",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 5,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de software?\nA) Identificar e priorizar os requisitos do sistema\nB) Desenvolver o código-fonte e realizar testes\nC) Gerenciar o cronograma e orçamento do projeto\nD) Realizar análise de mercado e concorrentes\nResposta correta: A"
+    },
+    {
+        "id": "llama-3-70b_few-shot_6",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 6,
+        "response": "Pergunta: Qual é o papel do Engenheiro de Requisitos em um projeto de software?\nA) Desenvolver o design da interface do usuário\nB) Coletar e documentar as necessidades do cliente\nC) Realizar testes de software\nD) Gerenciar a equipe de desenvolvimento\n\nResposta correta: B"
+    },
+    {
+        "id": "llama-3-70b_few-shot_7",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 7,
+        "response": "Pergunta: Qual é o principal benefício da Engenharia de Requisitos em um projeto de software?\nA) Reduzir o tempo de desenvolvimento\nB) Melhorar a qualidade do código-fonte\nC) Garantir que o sistema atenda às necessidades do cliente\nD) Reduzir os custos de manutenção\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_few-shot_8",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 8,
+        "response": "Pergunta: Qual é o papel do Engenheiro de Requisitos em um projeto de software?\nA) Desenvolver o código-fonte e realizar testes\nB) Definir e documentar as necessidades do cliente, e garantir a satisfação do usuário final\nC) Realizar análise de custos e orçamentos do projeto\nD) Gerenciar a equipe de desenvolvimento e testes\n\nResposta correta: B"
+    },
+    {
+        "id": "llama-3-70b_few-shot_9",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 9,
+        "response": "Pergunta: Qual é o papel do Engenheiro de Requisitos em um projeto de software?\nA) Desenvolver a arquitetura do sistema\nB) Definir e documentar as necessidades do cliente\nC) Realizar testes de aceitação\nD) Gerenciar a equipe de desenvolvimento\n\nResposta correta: B"
+    },
+    {
+        "id": "llama-3-70b_few-shot_10",
+        "llm": "llama-3-70b",
+        "prompt_technique": "few-shot",
+        "question_number": 10,
+        "response": "Pergunta: Qual é o papel do Engenheiro de Requisitos em um projeto de software?\nA) Implementar as soluções técnicas\nB) Desenvolver o código-fonte\nC) Definir e documentar as necessidades do cliente e garantir que os requisitos sejam satisfeitos\nD) Realizar testes de aceitação\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_1",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 1,
+        "response": "Antes de responder, vou seguir os passos propostos:\n\n1. **Objetivos da Engenharia de Requisitos**: A Engenharia de Requisitos tem como objetivos principais:\n * Identificar e documentar os requisitos do sistema ou produto;\n * Garantir que os requisitos sejam claros, precisos e completos;\n * Garantir que os requisitos sejam atendidos pelo sistema ou produto;\n * Garantir que os requisitos sejam coerentes e não contraditórios;\n * Garantir que os requisitos sejam priorizados e priorizados corretamente;\n * Garantir que os requisitos sejam atualizados e revisados ao longo do ciclo de vida do sistema ou produto.\n\n2. **Tipos de requisitos e suas classificações**: Os requisitos podem ser classificados em:\n * **Requisitos funcionais**: Descrevem o que o sistema ou produto deve fazer, como realizar uma operação ou fornecer uma funcionalidade.\n * **Requisitos não funcionais**: Descrevem como o sistema ou produto deve funcionar, como desempenho, segurança, usabilidade, etc.\n * **Requisitos de desempenho**: Descrevem as características de desempenho do sistema ou produto, como velocidade, capacidade de processamento, etc.\n * **Requisitos de segurança**: Descrevem as medidas necessárias para proteger o sistema ou produto contra ameaças ou vulnerabilidades.\n * **Requisitos de usabilidade**: Descrevem como o sistema ou produto deve ser fácil de usar e entender.\n * **Requisitos de manutenção**: Descrevem as características do sistema ou produto que facilitam a manutenção e atualização.\n\nCom base nesse raciocínio, posso gerar uma questão de múltipla escolha sobre Engenharia de Requisitos:\n\n**Pergunta:** Qual é o objetivo principal da Engenharia de Requisitos?\n\n**A)** Identificar e documentar os requisitos do sistema ou produto.\n**B)** Garantir que os requisitos sejam claros, precisos e completos.\n**C)** Garantir que os requisitos sejam atendidos pelo sistema ou produto.\n**D)** Garantir que os requisitos sejam coerentes e não contraditórios.\n\n**Resposta correta:** C) Garantir que os requisitos sejam atendidos pelo sistema ou produto."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_2",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 2,
+        "response": "Vou seguir os passos para criar uma questão de múltipla escolha sobre Engenharia de Requisitos.\n\n**Passo 1: Objetivos da Engenharia de Requisitos**\n\nA Engenharia de Requisitos é uma disciplina que visa definir e documentar os requisitos do sistema ou produto a ser desenvolvido. Os principais objetivos da Engenharia de Requisitos incluem:\n\n- Definir os requisitos do sistema ou produto de forma clara e concisa\n- Garantir que os requisitos sejam completos, precisos e consistentes\n- Identificar e resolver conflitos entre os requisitos\n- Garantir que os requisitos sejam atendidos pelo sistema ou produto\n\n**Passo 2: Tipos de requisitos e suas classificações**\n\nOs requisitos podem ser classificados em diferentes tipos, incluindo:\n\n- Requisitos funcionais: descrevem o que o sistema ou produto deve fazer\n- Requisitos não funcionais: descrevem como o sistema ou produto deve funcionar\n- Requisitos de desempenho: descrevem as capacidades do sistema ou produto\n- Requisitos de segurança: descrevem as medidas de segurança necessárias\n- Requisitos de usabilidade: descrevem como o sistema ou produto deve ser fácil de usar\n\n**Passo 3: Geração da questão de múltipla escolha**\n\nCom base nos objetivos e tipos de requisitos, posso criar uma questão de múltipla escolha sobre Engenharia de Requisitos.\n\nPergunta: Qual é o objetivo principal da Engenharia de Requisitos?\n\nA) Desenvolver o sistema ou produto\nB) Definir e documentar os requisitos do sistema ou produto\nC) Testar o sistema ou produto\nD) Manter o sistema ou produto\n\nResposta correta: B) Definir e documentar os requisitos do sistema ou produto"
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_3",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 3,
+        "response": "Antes de responder, vou seguir os passos propostos:\n\n1. **Objetivos da Engenharia de Requisitos**: A Engenharia de Requisitos é uma disciplina que visa definir e documentar os requisitos de um sistema, produto ou serviço. Os objetivos principais da Engenharia de Requisitos incluem:\n * Identificar e documentar os requisitos do sistema;\n * Validar e verificar se os requisitos estão claros e completos;\n * Garantir que os requisitos sejam atendidos pelo sistema;\n * Reduzir o risco de erros e problemas no desenvolvimento do sistema.\n\n2. **Tipos de requisitos e suas classificações**: Os requisitos podem ser classificados de várias maneiras, incluindo:\n * **Requisitos funcionais**: São requisitos que descrevem o que o sistema deve fazer ou fornecer. Exemplos: \"O sistema deve permitir que os usuários façam login\" ou \"O sistema deve calcular o total de uma compra\".\n * **Requisitos não funcionais**: São requisitos que descrevem como o sistema deve funcionar ou como ele deve ser percebido pelos usuários. Exemplos: \"O sistema deve ser rápido e responsivo\" ou \"O sistema deve ser seguro e confiável\".\n * **Requisitos de desempenho**: São requisitos que descrevem as características de desempenho do sistema. Exemplos: \"O sistema deve processar 100 transações por minuto\" ou \"O sistema deve ter uma resposta de 2 segundos para uma solicitação\".\n * **Requisitos de segurança**: São requisitos que descrevem as medidas de segurança necessárias para proteger o sistema e os dados dos usuários. Exemplos: \"O sistema deve ter autenticação e autorização para acessar os dados\" ou \"O sistema deve ter criptografia para proteger os dados\".\n\nAgora, com essas informações em mente, posso criar uma questão de múltipla escolha sobre Engenharia de Requisitos:\n\n**Pergunta:** Qual é o objetivo principal da Engenharia de Requisitos?\n\n**A)** Identificar e documentar os requisitos do sistema.\n**B)** Desenvolver o sistema e implementar os requisitos.\n**C)** Testar e validar o sistema para garantir que os requisitos sejam atendidos.\n**D)** Gerenciar a equipe de desenvolvimento do sistema.\n\n**Resposta correta:** A) Identificar e documentar os requisitos do sistema."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_4",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 4,
+        "response": "**Passo 1: Objetivos da Engenharia de Requisitos**\n\nA Engenharia de Requisitos é uma disciplina que visa garantir que os sistemas e produtos sejam desenvolvidos de acordo com as necessidades e expectativas dos usuários. Os principais objetivos da Engenharia de Requisitos incluem:\n\n- Identificar e documentar os requisitos do sistema ou produto;\n- Garantir que os requisitos sejam claros, precisos e concisos;\n- Verificar se os requisitos são viáveis e alcançáveis;\n- Garantir que os requisitos sejam compatíveis com os recursos disponíveis;\n- Garantir que os requisitos sejam atendidos durante o desenvolvimento do sistema ou produto.\n\n**Passo 2: Tipos de Requisitos e Classificações**\n\nOs requisitos podem ser classificados em diferentes tipos, incluindo:\n\n- Requisitos funcionais: Descrevem o que o sistema ou produto deve fazer;\n- Requisitos não funcionais: Descrevem como o sistema ou produto deve funcionar;\n- Requisitos de desempenho: Descrevem a capacidade do sistema ou produto de realizar tarefas;\n- Requisitos de segurança: Descrevem as medidas necessárias para proteger o sistema ou produto;\n- Requisitos de usabilidade: Descrevem como o sistema ou produto deve ser fácil de usar.\n\n**Passo 3: Geração da Questão de Múltipla Escolha**\n\nCom base nos objetivos da Engenharia de Requisitos e nos tipos de requisitos, podemos gerar a seguinte questão de múltipla escolha:\n\n**Pergunta:** Qual é o principal objetivo da Engenharia de Requisitos?\n\nA) Garantir que os requisitos sejam claros e precisos;\nB) Verificar se os requisitos são viáveis e alcançáveis;\nC) Garantir que os requisitos sejam atendidos durante o desenvolvimento do sistema ou produto;\nD) Identificar e documentar os requisitos do sistema ou produto.\n\n**Resposta correta:** D) Identificar e documentar os requisitos do sistema ou produto."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_5",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 5,
+        "response": "Antes de responder, vou seguir os passos solicitados:\n\n1. **Objetivos da Engenharia de Requisitos**: A Engenharia de Requisitos tem como objetivo principal definir e documentar os requisitos do sistema ou produto que está sendo desenvolvido. Isso inclui identificar, analisar, priorizar e documentar os requisitos, garantindo que eles sejam claros, concisos e atendam às necessidades do cliente.\n\n2. **Tipos de requisitos e suas classificações**: Os requisitos podem ser classificados em diferentes tipos, incluindo:\n * **Requisitos funcionais**: Descrevem o que o sistema deve fazer ou realizar.\n * **Requisitos não funcionais**: Descrevem como o sistema deve funcionar, incluindo características como desempenho, segurança, usabilidade e manutenção.\n * **Requisitos de negócios**: Descrevem as necessidades e objetivos do negócio ou organização.\n * **Requisitos de usuário**: Descrevem as necessidades e expectativas dos usuários do sistema.\n\nCom base nesse raciocínio, posso gerar uma questão de múltipla escolha sobre Engenharia de Requisitos.\n\n**Pergunta:** Qual é o objetivo principal da Engenharia de Requisitos?\n\n**A)** Definir e documentar os requisitos do sistema ou produto.\n**B)** Desenvolver o código do sistema.\n**C)** Testar e validar o sistema.\n**D)** Gerenciar o projeto.\n\n**Resposta correta:** A) Definir e documentar os requisitos do sistema ou produto."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_6",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 6,
+        "response": "Antes de responder, vou seguir os passos solicitados:\n\n1. **Objetivos da Engenharia de Requisitos**: A Engenharia de Requisitos tem como objetivo principal definir e documentar os requisitos do sistema ou produto que está sendo desenvolvido. Isso inclui identificar as necessidades e expectativas dos usuários, stakeholders e outros interessados, e garantir que esses requisitos sejam claros, precisos e alcançáveis.\n\n2. **Tipos de requisitos e suas classificações**: Existem vários tipos de requisitos, incluindo:\n * Requisitos funcionais: descrevem o que o sistema deve fazer ou fornecer.\n * Requisitos não funcionais: descrevem como o sistema deve funcionar, incluindo aspectos como desempenho, segurança, usabilidade e escalabilidade.\n * Requisitos de negócios: descrevem as necessidades e expectativas dos stakeholders em termos de resultados financeiros, operacionais e estratégicos.\n * Requisitos de usuário: descrevem as necessidades e expectativas dos usuários do sistema.\n\n3. **Geração de questão de múltipla escolha**: Com base nos objetivos e tipos de requisitos da Engenharia de Requisitos, aqui está uma questão de múltipla escolha:\n\nPergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Definir e documentar os requisitos do sistema ou produto.\nB) Desenvolver a solução técnica para o problema.\nC) Testar e validar a qualidade do software.\nD) Gerenciar o cronograma e orçamento do projeto.\n\nResposta correta: A) Definir e documentar os requisitos do sistema ou produto."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_7",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 7,
+        "response": "Vou seguir os passos solicitados para criar uma questão de múltipla escolha sobre Engenharia de Requisitos.\n\n**1. Objetivos da Engenharia de Requisitos:**\nA Engenharia de Requisitos é um processo que visa capturar, documentar e validar os requisitos de um sistema ou produto. Os principais objetivos da Engenharia de Requisitos incluem:\n\n- Identificar e documentar os requisitos do sistema ou produto;\n- Validar os requisitos para garantir que atendam às necessidades do cliente e do negócio;\n- Garantir que os requisitos sejam claros, precisos e concisos;\n- Evitar ambiguidades e conflitos entre os requisitos;\n- Garantir que os requisitos sejam implementados corretamente durante a fase de desenvolvimento.\n\n**2. Tipos de requisitos e suas classificações:**\nOs requisitos podem ser classificados em diferentes tipos, incluindo:\n\n- Requisitos funcionais: descrevem o que o sistema ou produto deve fazer;\n- Requisitos não funcionais: descrevem como o sistema ou produto deve funcionar;\n- Requisitos de desempenho: descrevem os requisitos de velocidade, capacidade e escalabilidade do sistema ou produto;\n- Requisitos de segurança: descrevem os requisitos de segurança do sistema ou produto;\n- Requisitos de usabilidade: descrevem os requisitos de facilidade de uso do sistema ou produto.\n\n**3. Geração da questão de múltipla escolha:**\nCom base nos objetivos e tipos de requisitos da Engenharia de Requisitos, aqui vai a questão de múltipla escolha:\n\nPergunta: Qual é o principal objetivo da Engenharia de Requisitos?\n\nA) Identificar e documentar os requisitos do sistema ou produto;\nB) Desenvolver o sistema ou produto;\nC) Testar e validar o sistema ou produto;\nD) Implementar a solução de forma rápida e barata;\n\nResposta correta: A) Identificar e documentar os requisitos do sistema ou produto."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_8",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 8,
+        "response": "Antes de responder, vou seguir os passos solicitados:\n\n1. **Objetivos da Engenharia de Requisitos**: A Engenharia de Requisitos é uma atividade importante no desenvolvimento de sistemas, com o objetivo de garantir que os sistemas sejam projetados e implementados de acordo com as necessidades e expectativas dos usuários. Alguns dos principais objetivos incluem:\n * Identificar e documentar os requisitos do sistema;\n * Garantir que os requisitos sejam claros, precisos e completos;\n * Verificar se os requisitos são viáveis e realistas;\n * Garantir que os requisitos sejam compatíveis com os recursos disponíveis;\n * Garantir que os requisitos sejam atendidos durante a implementação do sistema.\n\n2. **Tipos de requisitos e suas classificações**: Os requisitos podem ser classificados de várias maneiras, incluindo:\n * **Requisitos funcionais**: Descrevem o que o sistema deve fazer, ou seja, as funções que ele deve realizar.\n * **Requisitos não funcionais**: Descrevem como o sistema deve funcionar, ou seja, as características que ele deve ter, como desempenho, segurança, usabilidade, etc.\n * **Requisitos de negócios**: Descrevem as necessidades e expectativas dos usuários em termos de resultados financeiros, de mercado, de reputação, etc.\n * **Requisitos técnicos**: Descrevem as características técnicas do sistema, como hardware, software, redes, etc.\n\nCom base nesse raciocínio, posso gerar uma questão de múltipla escolha sobre Engenharia de Requisitos:\n\n**Pergunta:** Qual é o objetivo principal da Engenharia de Requisitos no desenvolvimento de sistemas?\n\n**A)** Identificar e documentar os requisitos do sistema.\n**B)** Garantir que os requisitos sejam viáveis e realistas.\n**C)** Garantir que os requisitos sejam atendidos durante a implementação do sistema.\n**D)** Desenvolver o código do sistema.\n\n**Resposta correta:** A) Identificar e documentar os requisitos do sistema."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_9",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 9,
+        "response": "**Passo 1: Objetivos da Engenharia de Requisitos**\n\nA Engenharia de Requisitos é um processo que visa definir e documentar os requisitos de um sistema, produto ou projeto. Os principais objetivos da Engenharia de Requisitos incluem:\n\n* Identificar e documentar os requisitos do sistema ou produto;\n* Verificar a consistência e a clareza dos requisitos;\n* Garantir que os requisitos sejam atendidos pelo sistema ou produto;\n* Reduzir o risco de erros e problemas durante o desenvolvimento;\n* Garantir que o sistema ou produto atenda às necessidades e expectativas dos usuários.\n\n**Passo 2: Tipos de requisitos e suas classificações**\n\nOs requisitos podem ser classificados em diferentes tipos, incluindo:\n\n* Requisitos funcionais: descrevem o que o sistema ou produto deve fazer;\n* Requisitos não funcionais: descrevem como o sistema ou produto deve funcionar;\n* Requisitos de desempenho: descrevem a capacidade do sistema ou produto de realizar tarefas;\n* Requisitos de segurança: descrevem as medidas necessárias para proteger o sistema ou produto contra ameaças;\n* Requisitos de usabilidade: descrevem como o sistema ou produto deve ser fácil de usar.\n\n**Passo 3: Geração de uma questão de múltipla escolha**\n\nCom base nos objetivos e tipos de requisitos da Engenharia de Requisitos, podemos gerar a seguinte questão de múltipla escolha:\n\nPergunta: Qual é o principal objetivo da Engenharia de Requisitos?\n\nA) Identificar e documentar os requisitos do sistema ou produto;\nB) Desenvolver o sistema ou produto;\nC) Testar o sistema ou produto;\nD) Garantir que o sistema ou produto atenda às necessidades e expectativas dos usuários;\n\nResposta correta: D) Garantir que o sistema ou produto atenda às necessidades e expectativas dos usuários."
+    },
+    {
+        "id": "llama-3-70b_chain-of-thought_10",
+        "llm": "llama-3-70b",
+        "prompt_technique": "chain-of-thought",
+        "question_number": 10,
+        "response": "Vou seguir os passos para criar uma questão de múltipla escolha sobre Engenharia de Requisitos.\n\n**Passo 1: Objetivos da Engenharia de Requisitos**\n\nA Engenharia de Requisitos é uma disciplina que visa definir e documentar os requisitos de um sistema, produto ou serviço. Os principais objetivos da Engenharia de Requisitos incluem:\n\n* Identificar e documentar os requisitos do sistema;\n* Verificar a consistência e a completude dos requisitos;\n* Garantir que os requisitos sejam claros, precisos e atendam às necessidades do usuário;\n* Garantir que os requisitos sejam testáveis e mensuráveis;\n* Garantir que os requisitos sejam priorizados e priorizados corretamente.\n\n**Passo 2: Tipos de requisitos e suas classificações**\n\nOs requisitos podem ser classificados em diferentes tipos, incluindo:\n\n* Requisitos funcionais: descrevem o que o sistema deve fazer;\n* Requisitos não funcionais: descrevem como o sistema deve funcionar;\n* Requisitos de desempenho: descrevem a capacidade do sistema de realizar tarefas;\n* Requisitos de segurança: descrevem as medidas para proteger o sistema e os dados;\n* Requisitos de usabilidade: descrevem como o sistema deve ser fácil de usar.\n\n**Passo 3: Geração da questão de múltipla escolha**\n\nCom base nos objetivos e tipos de requisitos, posso criar uma questão de múltipla escolha sobre Engenharia de Requisitos.\n\nPergunta: Qual é o objetivo principal da Engenharia de Requisitos?\n\nA) Identificar e documentar os requisitos do sistema;\nB) Desenvolver o sistema;\nC) Testar o sistema;\nD) Implementar o sistema.\n\nResposta correta: A) Identificar e documentar os requisitos do sistema."
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_1",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 1,
+        "response": "Pergunta: Durante a elicitação de requisitos, qual técnica é mais indicada para identificar os objetivos e necessidades do cliente?\nA) Análise de caso de uso\nB) Entrevistas com usuários\nC) Observação participante\nD) Análise de documentos\n\nResposta correta: B"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_2",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 2,
+        "response": "Pergunta: Qual técnica de elicitação de requisitos é mais indicada para identificar requisitos não funcionais, como segurança e escalabilidade?\nA) Análise de casos de uso\nB) Entrevistas com usuários\nC) Análise de documentos\nD) Observação de processo\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_3",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 3,
+        "response": "Pergunta: Qual técnica de elicitação de requisitos é mais indicada para identificar requisitos não funcionais, como segurança e escalabilidade?\nA) Análise de uso caso\nB) Entrevistas com usuários\nC) Análise de documentos\nD) Observação de processo\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_4",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 4,
+        "response": "Pergunta: Durante a elicitação de requisitos, qual técnica é mais indicada para identificar os requisitos não documentados do cliente?\nA) Análise de documentos\nB) Entrevistas com usuários\nC) Observação participante\nD) Questionário\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_5",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 5,
+        "response": "Pergunta: Qual técnica de elicitação de requisitos é mais indicada para identificar requisitos não funcionais, como performance e segurança?\nA) Análise de casos de uso\nB) Entrevistas com usuários\nC) Análise de documentos\nD) Análise de cenários de uso\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_6",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 6,
+        "response": "Pergunta: Qual técnica de elicitação de requisitos é mais indicada para identificar requisitos não funcionais, como usabilidade e desempenho?\nA) Análise de caso de uso\nB) Entrevistas com usuários\nC) Observação participante\nD) Questionário de requisitos\n\nResposta correta: D"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_7",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 7,
+        "response": "Pergunta: Durante a elicitação de requisitos, qual técnica é mais indicada para identificar os requisitos não documentados do sistema?\nA) Análise de caso de uso\nB) Entrevistas com usuários\nC) Observação participante\nD) Análise de documentos existentes\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_8",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 8,
+        "response": "Pergunta: Qual técnica de elicitação de requisitos é mais indicada para identificar requisitos não funcionais, como a usabilidade e a escalabilidade do sistema?\nA) Análise de caso de uso\nB) Entrevistas com usuários\nC) Análise de documentos\nD) Observação participante\n\nResposta correta: D"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_9",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 9,
+        "response": "Pergunta: Durante a elicitação de requisitos, qual técnica é mais indicada para identificar os requisitos não funcionais do sistema?\nA) Análise de casos de uso\nB) Entrevistas com usuários\nC) Análise de documentos de negócios\nD) Observação de processos\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_exemplar-guided_10",
+        "llm": "llama-3-70b",
+        "prompt_technique": "exemplar-guided",
+        "question_number": 10,
+        "response": "Pergunta: Durante a elicitação de requisitos, qual técnica é mais indicada para identificar os requisitos não documentados do cliente?\nA) Análise de documentos\nB) Entrevistas com usuários\nC) Observação participante\nD) Questionário\n\nResposta correta: C"
+    },
+    {
+        "id": "llama-3-70b_template-based_1",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 1,
+        "response": "Pergunta: Qual é a técnica de Engenharia de Requisitos que envolve a coleta de requisitos através de entrevistas, questionários e observação do comportamento dos usuários?\n\nA) Análise de Casos de Uso\nB) Análise de Requisitos Funcionais\nC) Análise de Requisitos Não Funcionais\nD) Entrevista de Requisitos\n\nResposta correta: D) Entrevista de Requisitos"
+    },
+    {
+        "id": "llama-3-70b_template-based_2",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 2,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\n\nA) Desenvolver um produto com recursos avançados e complexos\nB) Criar um processo de desenvolvimento eficiente e escalável\nC) Entender e documentar os requisitos do cliente para criar um produto satisfatório\nD) Implementar tecnologias inovadoras e de ponta\n\nResposta correta: C) Entender e documentar os requisitos do cliente para criar um produto satisfatório"
+    },
+    {
+        "id": "llama-3-70b_template-based_3",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 3,
+        "response": "Pergunta: Qual é a técnica de Engenharia de Requisitos que envolve a criação de um modelo mental compartilhado entre os stakeholders e os desenvolvedores sobre o sistema a ser desenvolvido?\nA) Requisitos Funcionais\nB) Requisitos Não Funcionais\nC) Requisitos de Usabilidade\nD) Análise de Casos de Uso\nResposta correta: D) Análise de Casos de Uso"
+    },
+    {
+        "id": "llama-3-70b_template-based_4",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 4,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos?\nA) Desenvolver soluções técnicas para problemas específicos\nB) Identificar e documentar os requisitos do sistema\nC) Gerenciar a equipe de desenvolvimento de software\nD) Realizar testes de aceitação do sistema\n\nResposta correta: B) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_template-based_5",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 5,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\nA) Desenvolver um produto com recursos avançados e complexos.\nB) Garantir a qualidade e a segurança do produto final.\nC) Identificar e documentar os requisitos do cliente para atender às suas necessidades.\nD) Definir a arquitetura e a estrutura do sistema.\n\nResposta correta: C) Identificar e documentar os requisitos do cliente para atender às suas necessidades."
+    },
+    {
+        "id": "llama-3-70b_template-based_6",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 6,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos no processo de desenvolvimento de software?\nA) Desenvolver um produto com recursos adicionais para atender às necessidades do mercado.\nB) Identificar e documentar os requisitos do cliente para garantir que o produto atenda às suas necessidades.\nC) Implementar as tecnologias mais recentes para melhorar a performance do produto.\nD) Reduzir o tempo de desenvolvimento do produto sem considerar as necessidades do cliente.\n\nResposta correta: B) Identificar e documentar os requisitos do cliente para garantir que o produto atenda às suas necessidades."
+    },
+    {
+        "id": "llama-3-70b_template-based_7",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 7,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\nA) Definir a arquitetura do sistema\nB) Desenvolver a documentação do sistema\nC) Identificar e documentar os requisitos do sistema\nD) Implementar a solução tecnológica\n\nResposta correta: C) Identificar e documentar os requisitos do sistema"
+    },
+    {
+        "id": "llama-3-70b_template-based_8",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 8,
+        "response": "Pergunta: Qual é a técnica de Engenharia de Requisitos que envolve a criação de um modelo mental compartilhado entre os stakeholders e o time de desenvolvimento para entender os requisitos do sistema?\n\nA) Análise de Caso de Uso\nB) Análise de Requisitos Funcionais\nC) Análise de Requisitos Não Funcionais\nD) Análise de Requisitos com Modelagem de Casos de Uso\n\nResposta correta: D) Análise de Requisitos com Modelagem de Casos de Uso"
+    },
+    {
+        "id": "llama-3-70b_template-based_9",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 9,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos em um projeto de desenvolvimento de software?\nA) Implementar a solução técnica mais avançada possível\nB) Definir os requisitos funcionais e não funcionais do sistema\nC) Gerenciar a equipe de desenvolvimento do projeto\nD) Realizar testes de aceitação do sistema\n\nResposta correta: B) Definir os requisitos funcionais e não funcionais do sistema"
+    },
+    {
+        "id": "llama-3-70b_template-based_10",
+        "llm": "llama-3-70b",
+        "prompt_technique": "template-based",
+        "question_number": 10,
+        "response": "Pergunta: Qual é o objetivo principal da Engenharia de Requisitos no processo de desenvolvimento de software?\nA) Desenvolver um produto com recursos adicionais para aumentar a competitividade no mercado.\nB) Identificar e documentar os requisitos do usuário para garantir que o produto atenda às necessidades.\nC) Implementar tecnologias inovadoras para melhorar a eficiência do processo de desenvolvimento.\nD) Reduzir custos e prazos de entrega do projeto.\n\nResposta correta: B) Identificar e documentar os requisitos do usuário para garantir que o produto atenda às necessidades."
     }
-
-
 ]

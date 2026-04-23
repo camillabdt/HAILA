@@ -1,0 +1,1222 @@
+{
+  "gpt-oss-120b_batch_11": {
+    "avaliador": "gpt-oss-120b",
+    "batch_idx": 11,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 1,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 1,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 1,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 1,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 1,
+        "relevancia": 3
+      }
+    ],
+    "sucesso": true
+  },
+  "qwen3-32b_batch_44": {
+    "avaliador": "qwen3-32b",
+    "batch_idx": 44,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 1,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "qwen3-32b_batch_48": {
+    "avaliador": "qwen3-32b",
+    "batch_idx": 48,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_60": {
+    "avaliador": "compound",
+    "batch_idx": 60,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "qwen3-32b_batch_59": {
+    "avaliador": "qwen3-32b",
+    "batch_idx": 59,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 1,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_61": {
+    "avaliador": "compound",
+    "batch_idx": 61,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_62": {
+    "avaliador": "compound",
+    "batch_idx": 62,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_64": {
+    "avaliador": "compound",
+    "batch_idx": 64,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_65": {
+    "avaliador": "compound",
+    "batch_idx": 65,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_67": {
+    "avaliador": "compound",
+    "batch_idx": 67,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 3,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 3,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 3,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_66": {
+    "avaliador": "compound",
+    "batch_idx": 66,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 4,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 4,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_68": {
+    "avaliador": "compound",
+    "batch_idx": 68,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_69": {
+    "avaliador": "compound",
+    "batch_idx": 69,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 4
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_71": {
+    "avaliador": "compound",
+    "batch_idx": 71,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_73": {
+    "avaliador": "compound",
+    "batch_idx": 73,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_70": {
+    "avaliador": "compound",
+    "batch_idx": 70,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_72": {
+    "avaliador": "compound",
+    "batch_idx": 72,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_75": {
+    "avaliador": "compound",
+    "batch_idx": 75,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_79": {
+    "avaliador": "compound",
+    "batch_idx": 79,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 5
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_76": {
+    "avaliador": "compound",
+    "batch_idx": 76,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 1,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 3,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 3
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_81": {
+    "avaliador": "compound",
+    "batch_idx": 81,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_78": {
+    "avaliador": "compound",
+    "batch_idx": 78,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_83": {
+    "avaliador": "compound",
+    "batch_idx": 83,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 2,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_80": {
+    "avaliador": "compound",
+    "batch_idx": 80,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 3,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 5
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_86": {
+    "avaliador": "compound",
+    "batch_idx": 86,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 3,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 3,
+        "diversidade": 2,
+        "complexidade": 3,
+        "relevancia": 4
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_87": {
+    "avaliador": "compound",
+    "batch_idx": 87,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 4,
+        "relevancia": 4
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 2,
+        "capacidade": 2,
+        "diversidade": 1,
+        "complexidade": 2,
+        "relevancia": 2
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_89": {
+    "avaliador": "compound",
+    "batch_idx": 89,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 4,
+        "capacidade": 4,
+        "diversidade": 3,
+        "complexidade": 3,
+        "relevancia": 5
+      }
+    ],
+    "sucesso": true
+  },
+  "compound_batch_88": {
+    "avaliador": "compound",
+    "batch_idx": 88,
+    "notas": [
+      {
+        "questao_idx": 0,
+        "fluidez": 5,
+        "capacidade": 5,
+        "diversidade": 4,
+        "complexidade": 4,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 1,
+        "fluidez": 5,
+        "capacidade": 5,
+        "diversidade": 4,
+        "complexidade": 4,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 2,
+        "fluidez": 5,
+        "capacidade": 5,
+        "diversidade": 4,
+        "complexidade": 4,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 3,
+        "fluidez": 5,
+        "capacidade": 5,
+        "diversidade": 4,
+        "complexidade": 4,
+        "relevancia": 5
+      },
+      {
+        "questao_idx": 4,
+        "fluidez": 5,
+        "capacidade": 5,
+        "diversidade": 4,
+        "complexidade": 4,
+        "relevancia": 5
+      }
+    ],
+    "sucesso": true
+  }
+}

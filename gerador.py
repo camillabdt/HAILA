@@ -16,7 +16,7 @@ LLMS = {
 "openai/gpt-oss-120b": "openai/gpt-oss-120b",
 "qwen/qwen3-32b": "qwen/qwen3-32b",
 "groq/compound": "groq/compound",
-"openai/gpt-oss-120b": "openai/gpt-oss-120b",}
+"llama-3-70b": "llama-3.1-8b-instant",}
 
 # Instrução clara no final dos prompts
 INSTRUCAO_FINAL = "\n\nInclua no final: a pergunta, quatro alternativas (A, B, C, D) e a resposta correta. Use o formato:\nPergunta: ...\nA) ...\nB) ...\nC) ...\nD) ...\nResposta correta: ..."
